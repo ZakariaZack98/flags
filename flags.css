@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(110deg, rgba(2,0,36,1) 0%, rgba(60,60,208,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/* Brazil Flag------------------------------------------------- */
+.brazil {
+    margin: 1rem;
+    height: 300px;
+    width: 500px;
+    background-color: #079547;
+    position: relative;
+}
+
+.rhombus {
+    width: 330px;
+    height: 440px;
+    background-color: #F4D700;
+    clip-path: polygon(50% 26%, 100% 48%, 51% 72%, 0 51%);
+    transform: translate(20px 20px);
+    position: absolute;
+    top: -23%;
+    left: 17%;
+}
+
+.logo-bz img {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 33%;
+    left: 28%;
+}
+
+/* German FLag----------------------------------------------- */
+
+.german {
+    margin: 1rem;
+}
+
+.top {
+    height: 100px;
+    width: 500px;
+    background-color: #000000;
+}
+
+.middle {
+    height: 100px;
+    width: 500px;
+    background-color: #D40C1B;
+}
+
+.bottom {
+    height: 100px;
+    width: 500px;
+    background-color: #F7C90D;
+}
+
+/* Srilankan Flag-------------------------------------------- */
+
+.sl {
+    margin: 1rem;
+}
+
+.container-sl {
+    height: 300px;
+    width: 500px;
+    background-color: #FFBE29;
+
+}
+
+.bar1 {
+    height: 250px;
+    width: 60px;
+    background-color: #00534E;
+    display: inline-block;
+}
+
+.bar2 {
+    height: 250px;
+    width: 60px;
+    background-color: #EB7400;
+    display: inline-block;
+    transform: translateX(-50%);
+}
+
+.bar1, .bar2 {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.lion {
+    width: 305px;
+    height: 250px;
+    display: inline-block;
+    transform: translateX(-10px);
+}
+
+.lion img {
+    height: 250px;
+    width: 305px;
+}
+
+/* Pakistan Flag--------------------------------------------- */
+
+.pakistan {
+    margin: 1rem;
+    height: 300px;
+    width: 500px;
+    background-color: #0F4220;
+
+}
+
+.container-pk {
+    position: relative;
+}
+
+.bar3 {
+    width: 100px;
+    height: 300px;
+    display: inline-block;
+    background-color: white;
+}
+
+.moon {
+    width: 390px;
+    height: 300px;
+    background-color: #00534E;
+    display: inline-block;
+}
+
+.container-pk img {
+    position: absolute;
+    top: 21%;
+    left: 45%;
+}
